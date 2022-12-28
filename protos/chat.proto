@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package pb;
+
+option go_package = "github.com/varunjain0606/simple-chat/protos";
+
+message Dummy {
+    uint32 id = 1;
+}
+
+service DummyService {
+    
+}
